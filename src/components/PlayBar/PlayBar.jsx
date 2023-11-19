@@ -1,6 +1,6 @@
 import { useContext, useState, useEffect } from "react";
 import { AudioContext } from "../../context/AudioContext";
-import style from "./playbar.module.scss";
+import style from "./playBar.module.scss";
 import { Slider, IconButton } from "@mui/material";
 import { Pause, PlayArrow } from "@mui/icons-material";
 import secondsToMMSS from "../../utils/secondsToMMSS";
